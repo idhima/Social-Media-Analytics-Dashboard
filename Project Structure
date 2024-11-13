@@ -1,0 +1,26 @@
+social-media-analytics-dashboard/
+├── client/
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       │   ├── Dashboard.js
+│       │   ├── Login.js
+│       │   ├── Register.js
+│       │   ├── Charts.js
+│       │   └── Sidebar.js
+│       ├── App.js
+│       ├── index.js
+│       └── services/
+│           └── authService.js
+├── server/
+│   ├── models/
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── analytics.js
+│   │   └── sentiment.js
+│   ├── server.js
+│   ├── .env
+│   └── config/
+│       └── db.js
+└── .gitignore
